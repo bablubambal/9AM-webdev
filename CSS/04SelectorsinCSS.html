@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors in CSS</title>
+    <link rel="stylesheet" href="Demo/style.css">
+    <style>
+        /* h1{
+            color: blue;
+        }
+        h1{
+            color: brown;
+
+            color: green;
+            background-color: black;
+            font-size: 100px;
+        }
+        h2{
+            color: blue;
+        } */
+        p {
+            color: violet;
+            background-color: black;
+        }
+/* Example of tag selector  */
+        h3{
+            background-color: aquamarine;
+
+        }
+        /* Id selector  */
+        h4{
+            color: green;
+        }
+ #hi {
+    color: red;
+ }
+ /* #f {
+    color: pink;
+ }
+ #m {
+    color: blue;
+ } */
+/* Class Selector  */
+.p {
+    color: red;
+    background-color: black;
+}
+.f {
+    color: green;
+    background-color:beige;
+}
+/* Example class selector  */
+.py{
+    color: red;
+}
+.fs {
+    background-color: aquamarine;
+}
+
+
+/* universal selector  */
+*{
+    font-size: 32px;
+}
+
+/* pseudo selector   */
+
+h4:hover{
+    color: blue;
+    background-color: black;
+}
+input:focus{
+    background-color: red;
+}
+input:checked{
+
+}
+a:visited{
+   color: brown;
+}
+
+/* nth slecotrr  */
+li:nth-child(2n){
+    color: red;
+}
+li:first-child{
+    color: blue;
+}
+li:last-child{
+    color: chocolate;
+}
+    </style>
+
+</head>
+<body>
+    <h1 >Selectors in CSS</h1>
+    <!-- <h2>Hi i am h2</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe doloremque quisquam blanditiis, delectus provident vitae consequuntur nobis animi nisi explicabo adipisci assumenda. Explicabo dignissimos nostrum corporis delectus sit. Dolorum, perferendis.</p> -->
+    <ol>
+        <li>Tag Selector</li>
+
+        <li>Id Selector</li>
+        <li>Class Selector</li>
+        <li>Universal Selector</li>
+        <li>Pseudo Selector </li>
+    </ol>
+
+    <hr>
+    <hr>
+    <h3>tag selectors: we use tag name to select the element</h3>
+
+    <!-- id Selecotr  -->
+   <h4 >Id Selectors 1</h4> 
+   <h4 id="hi" >Id Selectors 2</h4> 
+
+
+<!-- Example Id selector:  -->
+<!-- <h1 id="f">Pooja</h1>
+<h1 id="m">Lokesh</h1> -->
+
+<!-- Class Selector  -->
+
+<h1 class="p">Python class</h1>
+<h1 class="f">Full Stack Class</h1>
+<h1 class="p">Python Class</h1>
+<h1 class="p">Python Class</h1>
+<h1 class="f">Full STack Class</h1>
+
+<!-- example of Calss selector :  -->
+<h1 class="py">Pooja</h1>
+<h1 class="fs">Lokesh</h1>
+<h1 class="py fs">Bablu</h1>
+
+
+<!-- Universal Selector  -->
+
+<!-- if u want the property to all elements then use *  
+*{
+    apply to all elements
+}
+-->
+
+
+<!-- Pseudo Selectors:  -->
+
+<h4>Hello</h4>
+<input type="text">
+
+<a href="https://www.google.com" target="_blank">google site</a>
+
+
+<ol>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+    <li>6</li>
+    <li>7</li>
+    <li>8</li>
+</ol>
+</body>
+</html>
+
+<!-- Other selectors: 
+Pseudo Elements
+nth child
+child selectors:
+
+7-8
+
+-->
