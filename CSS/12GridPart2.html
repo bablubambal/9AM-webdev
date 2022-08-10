@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Elements</title>
+    <style>
+       
+        .i1{
+            grid-area: head;
+            background-color: red;
+        }
+        .i2{
+            grid-area: sidebar;
+            background-color: aquamarine;
+        }
+        .i3{
+            grid-area: main;
+            background-color: azure;
+        }
+        .i4{
+            grid-area: footer;
+            background-color: bisque;
+        }
+        .container{
+            display: grid;
+            grid-template-areas:
+             "head head head head"
+             "sidebar sidebar main main"
+             "sidebar sidebar main main"
+             "sidebar sidebar footer footer";
+            grid-template-areas:
+             "head head head head"
+             "main main sidebar sidebar "
+             " main main sidebar sidebar "
+             "footer footer footer footer";
+        }
+        .item{
+            /* width: 100px;
+            height: 100px; */
+            padding: 30px;
+            border: 1px solid   ;
+        }
+        @media(max-width: 700px ){
+            body{
+                background-color: black;
+            }
+
+            .container{
+            display: grid;
+            grid-template-areas:
+             "head head head "
+             "main main sidebar "
+             " main main sidebar   "
+             "main main  footer";
+            
+        }
+
+
+}
+@media(max-width: 500px ){
+            body{
+                background-color: rgb(232, 208, 208);
+            }
+
+            .container{
+            display: grid;
+            grid-template-areas:
+             "head head head "
+             "main main main  "
+             " sidebar sidebar sidebar  "
+             "footer footer footer";
+            
+        }
+
+    }
+
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="item i1">Header</div>
+        <div class="item i2">Sidebar</div>
+        <div class="item i3">Main Content</div>
+        <div class="item i4">Footer</div>
+        
+    </div>
+</body>
+</html>
