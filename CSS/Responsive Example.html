@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsivness ExaMPLE</title>
+    <style>
+        body{
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+        font-size: 60px;
+        background-color: cornsilk;
+        }
+#t, #m{
+    display: none;
+}
+@media (max-width:700px){
+    body{
+        font-size: 40px;
+        background-color: deeppink;
+    }
+    #t{
+        display: block;
+    }
+    #d{
+        display: none;
+    }
+}
+@media (max-width:500px){
+    body{
+        font-size: 30px;
+        background-color: rgb(104, 252, 183);
+    }
+    #m{
+        display: block;
+    }
+    #d,#t{
+        display: none;
+    }
+}
+
+
+
+    </style>
+</head>
+<body>
+    
+<h1 id="d">
+    I am Desktop
+</h1>
+<h1 id="t">
+    I am Tablet
+</h1>
+<h1 id="m">
+    I am mobile
+</h1>
+
+</body>
+</html>
