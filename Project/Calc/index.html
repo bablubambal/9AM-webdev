@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc</title>
+</head>
+<body>
+    <input type="text" readonly id="output"></h1>
+    <button id="1">1</button>
+    <button id="+">+</button>
+    <button id="2">2</button>
+    <button id="res">Calculate</button>
+
+    <script>
+        let inp = ""
+        document.getElementById("1").addEventListener('click',()=>{
+            inp = inp+"1";
+            console.log(inp)
+            document.getElementById("output").value = inp
+        })
+        document.getElementById("+").addEventListener('click',()=>{
+            inp = inp+"+";
+            console.log(inp)
+            document.getElementById("output").value = inp
+        })
+        document.getElementById("2").addEventListener('click',()=>{
+            inp = inp+"2";
+            console.log(inp)
+            document.getElementById("output").value = inp   
+        })
+        document.getElementById("res").addEventListener('click',()=>{
+           
+            // console.log(eval(inp))
+            document.getElementById("output").value = eval(inp)
+        })
+    </script>
+</body>
+</html>

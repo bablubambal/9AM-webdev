@@ -1,0 +1,7 @@
+How to make a Calc?
+
+-> Create index html css and js fils
+-> create html structure to show result and buttons
+-> use js to apply click event and get values when clicked
+-> * use eval() function to evaluate the string.
+-> Use CSS to Design 
