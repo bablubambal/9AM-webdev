@@ -1,0 +1,28 @@
+{
+    "data":[
+        {
+            "course":[
+                {
+                    "name":"C",
+                    "price":120
+                },
+                {
+                    "name":"CPP",
+                    "price":12000
+                }
+            ]
+        },
+        {
+            "student":[
+                {
+                    "name":"Lokesh",
+                    "course":"C"
+                },
+                {
+                    "name":"Pooja",
+                    "course":"CPP"
+                }
+            ]
+        }
+    ]
+}

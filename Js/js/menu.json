@@ -1,0 +1,144 @@
+{
+    "Menu":[
+        {
+            "Recomended":[
+                {
+                    "Image":"url:'https://img.freepik.com/premium-photo/cheesy-shawarma-with-layers-chicken-meat_79762-2914.jpg?w=1060'",
+                    "Name":"Chicken Shawarma",
+                    "Description":"Fresh rumali loaded with diced chicken& salad.Loaded with egg based garlic mayonnaise & with a touch of in house sauce.",
+                    "Price":"₹145/-"
+                },
+                {
+                    "Image":"url:'https://img.freepik.com/free-photo/indian-chicken-biryani-served-terracotta-bowl-with-yogurt-white-background-selective-focus_466689-72554.jpg?w=1060&t=st=1663075379~exp=1663075979~hmac=2b66924397f3465f8fd37cab2282832103b665fc801091bf982511deadb3971e'",
+                    "Name":"Chicken Biryani",
+                    "Description":"This biryani is inspired by the awadhi cuisine and comes with a Bengali touch",
+                    "Price":"₹245/-"
+                },
+                {
+                    "Image":"url:'https://img.freepik.com/free-photo/delicious-chicken-table_144627-8753.jpg?w=1060&t=st=1663078754~exp=1663079354~hmac=bf031ef2e3cda49ec59c7c1e57de11dbbbe2baadd92662447623cd6f69d4b6c8'",
+                    "Name":"Tandoor Chicken",
+                    "Description":"Tandoori chicken, a dish of roasted chicken marinated in yogurt and generously spiced,giving the meat its trademark red colour.It is named for the cylinderical clay oven in which it is cooked,a tandoor.",
+                    "Price":"₹530/-"
+                },
+                {
+                    "Image":"url:'https://swatisani.net/kitchen/wp-content/uploads/2014/11/1200px-Chicken_65_Dish.jpg'",
+                    "Name":"Chicken65",
+                    "Description":"Chicken65 is a starter,prepared with deep-fried battered chicken cubes flavoured with red chillis,curry leaves and tossed in yogurt-based sauce.",
+                    "Price":"₹300/-"
+                }
+            ]
+        },
+        {
+            "Rice And Biryani's":[
+                {
+                    "Image":"url:'https://img.freepik.com/free-photo/chicken-fried-rice-is-popular-indian-chinese-indo-chinese-street-food-served-plate-with-chopsticks_466689-74601.jpg?w=1060&t=st=1663128138~exp=1663128738~hmac=f88ff5ec910ad421c6e08118fb0da8d8d91e981f592a20e241e5509e8894abb1'",
+                    "Name":"Chicken Fried Rice",
+                    "Description":"Flavorful fried rice tossed with bits of succulent chicken, assorted fresh veggies and flavorful spices.|1Serve| |Dry| |Boneless| |Medium spicy|",
+                    "Price":"₹285/-"
+                },
+                {
+                    "Image":"url:'https://img.freepik.com/free-photo/schezwan-fried-rice-masala-szechuan-rice-is-popular-indo-chinese-food-served-plate-bowl-with-chopsticks-selective-focus_466689-74696.jpg?size=626&ext=jpg&ga=GA1.2.1837508588.1662649409'",
+                    "Name":"Veg Fried Rice",
+                    "Description":"Flavorful fried rice tossed with assorted fresh veggies and flavorful spices served hot and fresh. | Mild Spicy|",
+                    "Price":"₹245/-"
+                },
+                {
+                    "Image":"url:'https://img.freepik.com/premium-photo/mutton-lamb-biriyani-with-basmati-rice-served-bowl-moody-background_466689-27226.jpg?w=1060'",
+                    "Name":"Mutton Biryani",
+                    "Description":"Traditional zafrani nizami style MUTTON dum biryani with finest marinated mutton meat served with salan and raita ,Moderate Spicy.",
+                    "Price":"₹330/-"
+                },
+                {
+                    "Image":"url:'https://img.freepik.com/free-photo/yummy-soya-pulao-pilav-pulav-rice-soyabean-chunk-fried-rice-with-peas-beans-indian-pakistani-cuisine_466689-75121.jpg?w=1060&t=st=1663129122~exp=1663129722~hmac=6b956d1dba557473b2d1427988dde671eceb47ccdc1f068b25c24871b8cacc82'",
+                    "Name":"Veg Biryani",
+                    "Description":"A flavorful combination of rice and assorted veggies cooked in a fragrant and flavorful masala seasoned with Indian whole spices",
+                    "Price":"₹280/-"
+                }
+            ]
+        },
+        {
+            "Starters":[
+                {
+                    "Image":"url:'https://img.freepik.com/premium-photo/chilli-chicken-dry-is-popular-indo-chinese-dish-chicken-hakka-chinese-heritage_466689-77142.jpg?w=360'",
+                    "Name":"Chilli Chicken",
+                    "Description":"Chicken chunks, capsicum and onion tossed in a blend of chilli sauce, soya sauce and other Indo Chinese condiments.",
+                    "Price":"₹199/-"
+                },
+                {
+                    "Image":"url:'https://img.freepik.com/premium-photo/chilli-paneer-dry-is-made-using-cottage-cheese-indo-chinese-food_466689-76873.jpg?size=626&ext=jpg&ga=GA1.2.1837508588.1662649409'",
+                    "Name":"Chilli Paneer",
+                    "Description":"Cubes of fried crispy paneer are tossed in a spicy sauce made with soy sauce, vinegar, chili sauc",
+                    "Price":"₹185/-"
+                },
+                {
+                    "Image":"url:'https://img.freepik.com/premium-photo/veg-manchurian_57665-14110.jpg?size=626&ext=jpg&ga=GA1.2.1837508588.1662649409'",
+                    "Name":"Veg Manchurian",
+                    "Description":"Fried mixed vegetable dumplings tossed in tangy chilli sauce with added flavours of soy and vinegar",
+                    "Price":"₹170/-"
+                },
+                {
+                    "Image":"url:'https://img.freepik.com/premium-photo/indian-starter-chilli-chicken-served-plate-selective-focus_466689-32019.jpg?w=360'",
+                    "Name":"Chicken Manchurian",
+                    "Description":"Fried mixed vegetable dumplings tossed in tangy chilli sauce with added flavours of soy and vinegar",
+                    "Price":"₹188/-"
+                }
+            ]
+        },
+        {
+            "Kebabs":[
+                {
+                    "Image":"url:'https://img.freepik.com/premium-photo/paneer-tikka-kabab-red-sauce-is-indian-dish-made-from-chunks-cottage-cheese_466689-67071.jpg?size=626&ext=jpg&ga=GA1.2.1837508588.1662649409'",
+                    "Name":"Paneer Tikka Kebab",
+                    "Description":"Cottage cheese cubes marinated with Indian spices and cooked to perfection in a tandoor with onion and capsicum",
+                    "Price":"₹235/-"
+                },
+                {
+                    "Image":"url:'https://images.unsplash.com/photo-1532636875304-0c89119d9b4d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGtlYmFic3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60'",
+                    "Name":"Chicken Tikka Kebab",
+                    "Description":"Juicy and tender chicken pieces cooked in tandoor ,Serves with Green Chutney ,Mild Spicy",
+                    "Price":"₹245/-"
+                },
+                {
+                    "Image":"url:'https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/qhhzmvxf3jxack8tfl3c'",
+                    "Name":"Tandoor Kebab",
+                    "Description":"Raw chicken marinated with a mixture of yogurt and tandoori masala, a spice blend, seasoned and colored with cayenne pepper.",
+                    "Price":"₹279/-"
+                },
+                {
+                    "Image":"url:'https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/itbdb4krzbkzextn6iwy'",
+                    "Name":"Tangdi Kebab",
+                    "Description":"A marinade of garlic, ginger, garam masala, turmeric and chilli gives chicken drumsticks a dose of sub-continental spice in Alfred Prasad's tangdi kabab recipe.",
+                    "Price":"₹298/-"
+                }
+            ]
+        },
+        {
+            "Soups And Shawarma":[
+                {
+                    "Image":"url:'https://recipesofhome.com/wp-content/uploads/2020/03/vegetable-soup-recipe.jpg'",
+                    "Name":"Veg Soup",
+                    "Description":"A clear soup flavoured with chinese seasonings and served with boiled noodles, could be enjoyed best with veggies.",
+                    "Price":"₹160/-"
+                },
+                {
+                    "Image":"url:'https://images.unsplash.com/photo-1534939561126-855b8675edd7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fHNvdXBzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60'",
+                    "Name":"Chicken Soup",
+                    "Description":"Shredded chicken cooked in spicy brown broth accented by fried bits of garlic and topped with crunchy noodles",
+                    "Price":"₹180/-"
+                },
+                {
+                    "Image":"url:'https://img.freepik.com/free-photo/side-view-chicken-roll-grilled-chicken-lettuce-cucumber-tomato-mayo-pita_141793-4849.jpg?size=626&ext=jpg&ga=GA1.2.1837508588.1662649409'",
+                    "Name":"Chicken Shawarma without salad",
+                    "Description":"TMarinated double grilled shredded boneless chicken (halal) wrapped in rumali roti, salad and an irresistible mix of mint, garlic mayo and spicy tahini sauce.",
+                    "Price":"₹145/-"
+                },
+                {
+                    "Image":"url:'https://img.freepik.com/free-photo/tortilla-with-added-ink-cuttlefish-with-chicken-vegetables_2829-10963.jpg?size=626&ext=jpg&ga=GA1.2.1837508588.1662649409'",
+                    "Name":"Chicken65",
+                    "Description":"Marinated double grilled shredded boneless chicken (halal) wrapped in rumali roti, salad and an irresistible mix of mint, garlic mayo and spicy tahini sauce.",
+                    "Price":"₹130/-"
+                }
+            ]
+        }
+    ]
+}
