@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kirana Store</title>
+    <style>
+        .product{
+            background-color: grey;
+            border: 1px solid ;
+            border-radius: 16px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+        #showProducts{
+            display: grid;
+            margin: 0px 15px !important;
+            grid-template-columns: repeat(3,200px);
+            grid-gap: 20px;
+            align-content: center;
+        }
+    </style>
+</head>
+<body>
+    
+        <input type="text" name="" id="name">
+        <input type="text" name="" id="desc">
+        <input type="number" name="" id="price">
+        <button onclick="addproduct()">Add Product</button>
+
+        <div id="showProducts"></div>
+
+
+
+    <script>
+        function addproduct(){
+            let name = document.getElementById("name").value;
+            let desc = document.getElementById("desc").value;
+            let price = document.getElementById("price").value;
+            data = {
+                "name":name,
+                "desc":desc,
+                "price":price
+            }
+
+           
+            console.log("addinggg..",data)
+            addProductToLocalStorage(data)
+            showProducts()
+        }
+
+function deleteProduct(index){
+    console.log(index)
+    let lsproducts = JSON.parse( localStorage.getItem("products"))
+if(lsproducts===null){
+    let lsproduct = []
+    localStorage.setItem("products",JSON.stringify(lsproduct))
+}
+else{
+    lsproducts.splice(index,1)
+    localStorage.setItem("products",JSON.stringify(lsproducts))
+}
+showProducts()
+}
+
+
+        function addProductToLocalStorage(product){
+let lsproducts = JSON.parse( localStorage.getItem("products"))
+if(lsproducts===null){
+    let lsproduct = []
+    localStorage.setItem("products",JSON.stringify(lsproduct))
+}
+lsproducts.push(product)
+
+localStorage.setItem("products",JSON.stringify(lsproducts))
+
+        }
+
+        function showProducts (){
+            let lsproducts = JSON.parse( localStorage.getItem("products"))
+            if(lsproducts===null){
+    let lsproduct = []
+    localStorage.setItem("products",JSON.stringify(lsproduct))
+    if(lsproducts.length  ==0)
+    document.getElementById("showProducts").innerHTML = "No proudcts to show";
+}
+else{
+    let html = ``;
+    lsproducts.forEach((product,index) => {
+        html= html+ `<div class="product">
+            <h1>${index} ${product.name}</h1>
+        <p>${product.desc}  <b>${product.price} </b></p>
+        <button onclick="deleteProduct(${index})" > Delete </button>
+            </div>
+        `
+        
+    });
+    document.getElementById("showProducts").innerHTML = html;
+}
+
+
+
+        }
+
+
+
+        showProducts()
+    </script>
+</body>
+</html>
