@@ -1,6 +1,7 @@
 from flask import Flask
 from dbhelper import DBHelper;
 from collections import ChainMap
+from flask import request
 app = Flask(__name__)
 db = DBHelper()
 
@@ -40,5 +41,13 @@ def show_users():
     # print("hello ",dic)
     return str(res)
 
+
+
+
+@app.route('/test', methods=['GET', 'POST','PUT'])
+def parse_request():
+    data = request.data
+    print(data)
+    return "works susscess"
 if __name__ == "__main__":
     app.run(debug=True)
