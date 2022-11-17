@@ -1,0 +1,28 @@
+
+Make this Api's
+/api
+
+Method    Endpoint    Works
+POST        /emplyee    Create an employee in DB
+GET         /emplyee     Gets all employee
+PUT         /emplyee/{eid}     to update exisiting employee data
+DELETE      /emplyee/{eid}  to delete a particluar employee
+GET         /emplyee/{eid}   to get single employee
+//GET         /departments    to get all the departments availbe
+GET         /emplyee/{dname} to get all employee of the particluar department  
+
+
+
+{
+    employeeName: "aalbu",
+    employeeId:"23",
+    departmentId:"2343",
+    departmentName:"Fin",
+    salary:"34565",
+    designation:"Engineer",
+    skills: ["c","cpp"],
+    managerName: "ram",
+    awards: 3,
+    
+
+}
